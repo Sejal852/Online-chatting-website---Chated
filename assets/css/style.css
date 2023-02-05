@@ -1,0 +1,215 @@
+/* General */
+
+h1 {
+    color: gold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    /*overflow: hidden;*/
+    background-image: url('https://t3.ftcdn.net/jpg/02/95/56/84/360_F_295568465_SZbzsZgiihUuMiCpHQGDw8qpA0AwIcTb.jpg') !important;
+    background-size: cover;
+}
+
+.form-control {
+    border: none;
+}
+
+
+/* Sing up / Sign in */
+
+.signup {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.signup .form-control {
+    background-color: transparent !important;
+}
+
+.signup .form-msg {
+    margin-bottom: 40px;
+}
+
+.input-chated {
+    width: 40%;
+    border: none;
+    border: 1px solid #c3c3c3;
+    padding: 10px;
+}
+
+.btn-chated {
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    color: gold;
+    width: 30%;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.already-have-account {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.error-msg {
+    text-align: center;
+    font-weight: bold;
+    background: #f55;
+    width: 40%;
+    margin: 40px auto 0 auto;
+    padding: 10px;
+    color: #fff;
+}
+
+
+/* Header */
+
+.navbar-brand,
+.navbar-brand:hover,
+.navbar-brand:visited,
+.navbar-brand:active {
+    color: #fff !important;
+}
+
+.navbar .account-box {
+    position: relative;
+}
+
+.navbar .account-box .profile-pic-upload {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+
+/* Conversation Page */
+
+.conversations .col-md-4 {
+    overflow-y: auto;
+}
+
+.conversations .col-md-4 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.conversations .col-md-4 ul>a {
+    color: gold;
+    text-decoration: none;
+}
+
+.conversations .col-md-4 ul .user-who-wrote-you {
+    position: relative;
+    padding: 10px;
+}
+
+.conversations .col-md-4 ul .user-list-item {
+    color: gold;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    opacity: 0;
+}
+
+.conversations .col-md-4 ul a .user-who-wrote-you {
+    padding: 10px;
+}
+
+.conversations .col-md-4 ul a:not(:first-child) .user-who-wrote-you {
+    border-top: 1px solid #c3c3c3;
+}
+
+.conversations .col-md-4 ul .user-who-wrote-you:hover,
+.active {
+    background-color: #292b2c;
+    color: #fff;
+}
+
+.conversations .col-md-4 ul .user-who-wrote-you img,
+.rounded-img {
+    width: 50px;
+    border-radius: 40px;
+}
+
+.conversations .col-md-4 ul .user-who-wrote-you .messager-name {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.conversations .search-user .ph-searchbar {
+    border: 1px solid #c3c3c3;
+}
+
+.conversations .search-user .list-results {
+    width: 80%;
+    margin-top: 10px;
+}
+
+.conversations .search-user .list-results a:hover {
+    background-color: #67a7eb;
+    color: #fff;
+}
+
+.conversations .messages {
+    position: relative;
+    height: 100vh;
+}
+
+.conversations .messages .messages-show {
+    height: 77%;
+    overflow-y: auto;
+}
+
+.conversations .messages .messages-show .bubble-message {
+    margin: 10px;
+    width: 50%;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.btn-chated-logout {
+    border: none;
+    background-color: transparent;
+    border: 1px solid #c3c3c3;
+    color: #fff;
+}
+
+.conversations .messages .messages-show .bubble-message-me {
+    float: right;
+    background-color: #413f42;
+    color: rgb(221, 214, 215);
+}
+
+.conversations .messages .messages-show .bubble-message-you {
+    float: left;
+    background-color: gold;
+    color: rgb(8, 8, 8);
+}
+
+.conversations .messages .messages-show .write-your-message {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    left: 0;
+}
+
+.conversations .messages .write-your-message {
+    height: 7%;
+    text-align: center;
+}
+
+.conversations .messages .write-your-message input {
+    width: 100%;
+    height: 100%;
+}
